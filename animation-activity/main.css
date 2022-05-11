@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
+#bottom:hover{
+  rotate: 45deg;
+}
+#top:hover{
+  rotate: 45deg;
+
+}
+
+#middle:hover{
+  transition: ease-out;
+}
 body  {
   font-family: 'Josefin Sans', sans-serif;
   background-color: gainsboro;
@@ -41,4 +52,7 @@ a {
 }
 a:hover {
   color: ghostwhite;
+  
 }
+
+
